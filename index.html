@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tree animation with css</title>
+  <link href="styles.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="conatner flex justify-center items-center h-screen relative">
+    <div class="branch-1 grid grid-rows-3 gap-2 ">
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+    </div>
+    <div class="branch-2 grid grid-rows-4 gap-2 ">
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+    </div>
+
+    <div class="branch-3 grid grid-rows-7 gap-2 mt-20">
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf row-span-3 rounded-t-full h-24 w-8 bg-black"></div>
+    </div>
+
+    <div class="branch-4 grid grid-rows-4 gap-2 ">
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black absolute bottom-56 mx-1"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+    </div>
+
+    <div class="branch-5 grid grid-rows-3 gap-2 ">
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+      <div class="leaf rounded-full h-8 w-8 bg-black"></div>
+    </div>
+
+
+
+  </div>
+</body>
+</html>
